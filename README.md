@@ -1,44 +1,30 @@
-# TaskFlow — Task Management App
+# TaskFlow Kanban App
 
-TaskFlow is a Trello-style task management app built with React. It allows users to organize tasks across multiple workflow stages, manage task details, filter tasks, and move cards using drag-and-drop interaction.
+TaskFlow is a simple and responsive Kanban board application built to help users manage tasks visually. This project was developed as a front-end practice project focusing on UI structure, task organization, and interactive user experience.
 
-This project was created as part of my frontend development portfolio to practice building a more complete and interactive web application using React, API integration, local state management, and persistent browser storage.
+## Live Demo
+
+https://taskflow-kanban-app-xi.vercel.app/
 
 ## Features
 
-- Kanban-style task board with To Do, In Progress, and Done columns
-- Fetch initial task data from DummyJSON API
-- Add new tasks with custom title and priority
-- Edit existing task title and priority
-- Delete tasks
-- Move tasks between columns using dropdown status control
-- Drag and drop tasks between columns
-- Search tasks by title
-- Filter tasks by priority
-- Dashboard summary for total, To Do, In Progress, and Done tasks
-- Overall completion progress bar
-- Empty state for no search results and empty columns
-- Persistent data using LocalStorage
-- Reset filters and reset board data
-- Responsive dashboard layout
+- Responsive Kanban board layout
+- Task card interface
+- Organized task columns
+- Clean and modern UI design
+- Deployed with Vercel
 
 ## Tech Stack
 
-- React
-- Vite
-- JavaScript
+- HTML
 - CSS
-- DummyJSON API
-- LocalStorage
-- dnd-kit
+- JavaScript
+- Vercel
 
-## What I Learned
+## Project Purpose
 
-Through this project, I practiced building a React application with reusable components, handling API data, managing state across components, implementing CRUD features, and improving user experience with search, filters, drag-and-drop, and responsive UI design.
+This project was created as part of my front-end development learning journey, especially to improve my understanding of layout design, DOM interaction, and deployment workflow using GitHub and Vercel.
 
-## Getting Started
+## Author
 
-Clone this repository and install the dependencies:
-
-```bash
-npm install
+Created by Axel Zarra
